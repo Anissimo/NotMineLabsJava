@@ -1,4 +1,9 @@
 package org.example.lab6;
 
-public class Applicant {
+public interface Applicant {
+    void getCertificate();
+    void fillApplication();
+    void registerForEntranceExam();
+    void passEntranceExam();
+    void submitDocuments();
 }

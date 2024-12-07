@@ -2,10 +2,10 @@ package org.example.lab4.task1;
 
 import java.util.Objects;
 
-public class String {
+public class StringMy {
     private String value;
 
-    public String(String value) {
+    public StringMy(String value) {
         this.value = value;
     }
 
@@ -18,8 +18,8 @@ public class String {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass()!= o.getClass()) return false;
-        String string = (String) o;
-        return Objects.equals(value, string.value);
+        StringMy stringMy = (StringMy) o;
+        return Objects.equals(value, stringMy.value);
     }
 
     @Override

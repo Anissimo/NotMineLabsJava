@@ -5,12 +5,12 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class LabWork {
+public class Lab1 {
 
     private Scanner scanner;
     private Random random;
 
-    public LabWork() {
+    public Lab1() {
         this.scanner = new Scanner(System.in);
         this.random = new Random();
     }
@@ -126,7 +126,7 @@ public class LabWork {
     }
 
     public static void main(String[] args) {
-        LabWork app = new LabWork();
+        Lab1 app = new Lab1();
         app.run();
     }
 }
